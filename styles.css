@@ -1,0 +1,88 @@
+body{
+    padding: 10px;
+    background-color: rgb(38, 38, 38);
+    font-size: 20px;
+}
+
+.banner{
+    font-size: 16px;
+    color:rgb(217, 202, 156);
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(231, 209, 167);
+}
+input:focus{
+    outline: none;
+}
+p, .text-styles{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+.text,.help-helper{
+    color: rgb(231, 209, 167);
+}
+.us-clr{
+    font-size: 20px;
+    display: inline-block;
+
+}
+.highlight-cmd{
+    text-shadow: 0px 0px 3px rgb(232, 229, 225);
+}
+.in{
+    color: rgb(215, 153, 33);
+}
+.in-domain{
+    color: rgb(152, 151, 26);
+}
+.input-data{
+    display: flex;
+    flex-direction: row;
+}
+.output-data{
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(215, 153, 33);
+    transition: 0.15s;
+}
+a{
+    text-decoration: none;
+    color: rgb(215, 153, 33);
+    transition: 0.15s;
+}
+
+a:hover{
+    color: rgb(231, 209, 167);
+}
+
+.my-pic{
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+li::marker{
+    color: rgb(231, 209, 167);
+}
+
+.op-text{
+    font-size: 20px;
+}
