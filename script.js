@@ -140,8 +140,7 @@ function printAboutCmd(){
       <img class = "my-pic" src="balaji.jpeg" alt="my-image" />
     </div>
     <div class = "container-left">
-      <p class = "text"> Hello people! I am Balaji from tirunelveli. I completed my schooling at Sri Jayendra Swamigal Silver Jubilee School, Tirunelveli with 88 percentage.I am a dedicated Computer Science and Engineering student currently in my third year of Bachelor's degree. With a passion for technology and a strong academic foundation (CGPA of 8.24 up to the 4th Semester).
-        In addition to my academic pursuits, I actively contribute to the student community. I am honored to serve as the Secretary of the IEEE Computer Society Student's Chapter for the year 2023-24, where I am involved in organizing and leading various technical events and initiatives. Additionally, I hold the role of Student Program Sub-Coordinator at the Computer Society of India Student's Chapter for the same year, further showcasing my leadership skills and ability to manage multiple responsibilities.</p>
+      <p class = "text"> Hello people! I am balaji from tirunelveli, currently pursueing my 3rd yr of Computer Science and Engineering at National engineering college, kovilpatti with an excellent CGPA of 8.36 upto my 4th semester. Full stack web development is my domain of interest. I am honoured to serve as the secretary of IEEE computer society and the student program subcoordinator of Computer society of India clubs of our college where i am involved in organising and coordinating events, which reflects my capability of managing multiple responsibilities. I have the routine of participating in coding ninjas weekly contest where my highest achieved rank was 322th out of 18k people.</p>
     </div>
   </div><br />`;
     output.insertAdjacentHTML('beforeend',html);
@@ -154,11 +153,17 @@ function printResumeCmd(){
 }
 //update project details here.
 function printProjectsCmd(){
-    const html = `<p class = "text"><ul type = "square"><li><a href = "https://guess-the-number-game-three.vercel.app/" target="_blank">Retro Guess my number game</a></li> 
+    const html = `<p class = "text"><ul type = "square">
+    <li><a href = "https://mapty-on-air.vercel.app/" target="_blank"> Mapty - A single application to log all your workouts. </a></li>
+    <li><a href = "https://github.com/Balaji-04/rapid-mailer" target="_blank"> RapidMailer - Send BULK emails with ease. </a></li>
+    <li><a href = "https://github.com/Balaji-04/rapid-url-shortener" target="_blank"> RapidURL Shortener - Shorten long links with ease. </a></li>
+    <li><a href = "https://github.com/Balaji-04/node-artifacts-boutique" target="_blank"> Artifacts Boutique - Simple yet dynamic website using node.js </a></li>
+    <li><a href = "https://guess-the-number-game-three.vercel.app/" target="_blank">Retro Guess my number game</a></li> 
     <li><a href = "https://retro-pig-game.vercel.app/" target="_blank">Retro Pig game</a></li>
     <li><a href = "https://qr-code-component-using-html-css-lime.vercel.app/" target="_blank">QR Code Component - Frontend Mentor Challenge</a></li>
     <li><a href = "https://nft-preview-card-frontend-mentor-sage.vercel.app/" target="_blank">NFT Prview Card Component - Frontend Mentor Challenge</a></li>
     <li><a href = "https://newyearcountdown-rosy.vercel.app/" target="_blank">New Year Countdown Application</a></li>
+    <li><a href = "https://bmi-calculator-onair.vercel.app/" target="_blank"> BMI Calculator </a></li>
     <li>Terminal based portfolio - The one you're currently on!😉 </li>
     </ul></p>`;
     output.insertAdjacentHTML('beforeend',html);
@@ -167,12 +172,13 @@ function printProjectsCmd(){
 //update achievements heere
 function printAchievementsCmd(){
     const html = `<ul> 
-    <li>250+ programs solved on Leetcode.</li>
+    <li>350+ programs solved on Leetcode.</li>
     <li>1400+ programs solved on Skillrack including mastery of 
-    190+ daily challenges and completion of 40+ daily tests.</li>
+    190+ daily challenges and completion of 50+ daily tests.</li>
     <li>Won second prize in an poster designing contest conducted by 
     IE(I) Students chapter.</li>
     <li>Won the second prize, including a cash prize of Rs. 1000, in a Technical Connexion contest conducted by Paavai Engineering College - Namakkal.</li>
+    <li>Participated in IEEE Xtreme 17.0 and secured 530-th rank in India.</li>
     </ul>`;
     output.insertAdjacentHTML('beforeend',html);
 }
@@ -180,9 +186,9 @@ function printAchievementsCmd(){
 function printTechStackCmd(){
     const html = `<ul type = "square">
     <li>Java</li>
+    <li>HTML, CSS</li>
     <li>Javascript</li>
-    <li>HTML</li>
-    <li>CSS</li>
+    <li>Node.js</li>
     <li>SQL</li>
     <li>C</li>
     </ul>`;
